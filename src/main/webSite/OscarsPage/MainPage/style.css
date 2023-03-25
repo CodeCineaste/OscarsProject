@@ -33,6 +33,7 @@ body {
     background-color: #eee;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    height: 250px;
 }
 
 .square:hover {
