@@ -55,4 +55,44 @@ nav img {
 .nav-links ul li:hover::after {
     width: 100%;
 }
+.welcome {
+    width: 100%;
+    color: #ffffff;
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding-top: 20px;
+}
+.welcome h1 {
+    font-size: 62px;
+    margin-bottom: 10px;
+}
+.welcome p {
+    font-size: 14px;
+    margin-top: 0;
+}
+.box {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px  solid  #33F6FF;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+    width: 100px;
 
+}
+.box:hover {
+    color: #000;
+    background: #33F6FF;
+}
+
+.box:hover::after {
+    width: 100%;
+    background: transparent;
+}
